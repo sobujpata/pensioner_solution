@@ -1,0 +1,112 @@
+.container-md.text-center {
+    padding:100px 200px 100px 200px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 720px) {
+    .container-md.text-center{
+      padding: 40px;
+    }
+  }
+.log-logo.col-md-7 {
+    text-align: left;
+}
+@media screen and (max-width: 720px) {
+    .col-md-7{
+      display: block;
+      margin-top: 110px;
+    }
+  }
+  .about-brand{
+    font-size: 25px; font-family: cursive; padding: 15px; font-weight: 600;
+  }
+  @media screen and (max-width: 720px) {
+    .about-brand{
+      display: none;
+    }
+  }
+img.login_logo {
+    width: 120px;
+    height: 150px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 720px) {
+  img.login_logo{
+    display: none !important;
+  }
+}
+
+h3.ex-login-header {
+  text-align: center;
+  color: #007bff;
+  font-weight: bold;
+  font-family: Verdana, Arial, Tahoma, Serif;
+}
+h5.ex-login-header2 {
+  text-align: center;
+  color: #007bff;
+  font-weight: bold;
+  font-family: Verdana, Arial, Tahoma, Serif;
+}
+@media screen and (max-width: 720px) {
+  .ex-login-header{
+    font-size: 17px;
+    margin-top: -26px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .ex-login-header2{
+    font-size: 15px;
+
+  }
+}
+
+input.btn.btn-primary {
+    width:100% !important;
+}
+a.signup {
+    color: #fff;
+    text-decoration: none;
+}
+/* button.btn {
+    background-color: #42b72a;
+	width: 55%;
+} */
+.col-md-5 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    /* margin-bottom: 0px; */
+    padding-bottom: 10px;
+	box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+}
+@media screen and (max-width: 720px) {
+    .col-md-5 {
+      width:100%;
+    }
+  }
+input.btn.btn-primary {
+    font-size: 25px;
+}
+button.btn {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.reset_password {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  /* margin-bottom: 0px; */
+  padding-bottom: 10px;
+box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+}
+.reset_password1:hover{
+background-color: #58b8f8;
+color: #fff;
+}
+.reset_password1:active{
+background-color: #2bc1db;
+
+}

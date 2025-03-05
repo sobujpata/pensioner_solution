@@ -1,0 +1,554 @@
+@font-face {
+	font-family: bangla-font;
+	src: url('../fonts/SolaimanLipi.ttf');
+}
+p.ex1 {
+    margin-top: 90px;
+}
+/* First letter of paragraph will be lerge */
+.about_ro::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+  }
+/*Start index.php css*/
+    #customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif, SolaimanLipi;
+    font-size: 18px;
+    border-collapse: collapse;
+    width: 100%;
+    }
+    #heading {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif, SolaimanLipi;
+    font-size: 30px;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 60px;
+    }
+    #heading1 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif, SolaimanLipi;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 25px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .heading-h1-top{
+            font-size: 32px;
+        }
+      }
+    @media only screen and (max-width: 576px) {
+        .heading-h1-top{
+            font-size: 25px;
+        }
+      }
+
+    @media only screen and (max-width: 768px) {
+        .img-heading{
+            display: none;
+        }
+      }
+      @media only screen and (max-width:768px) {
+        .about_ro_header{
+            margin-top: 95px !important;
+        }
+      }
+      @media only screen and (max-width:768px) {
+        .heading-h3-top{
+            font-size: 20px;
+            color: #1c93bd;
+        }
+      }
+
+/*End index.php css*/
+/*Start faq_general.php css*/
+    #welfare {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif, SolaimanLipi;
+
+        border-collapse: collapse;
+        width: 100%;
+    }
+    #welfare1 {
+
+        border-collapse: collapse;
+        width: 100%;
+    }
+    #welfare td, #welfare th {
+        border: 1px solid #6e6868;
+        padding: 8px;
+        text-align: justify;
+    }
+/*End faq_general.php css*/
+/*Start n_board.php css*/
+    #customers {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif, SolaimanLipi;
+        font-size: 18px;
+        border-collapse: collapse;
+        width: 100%;
+        text-align: justify;
+    }
+    #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+    #customers tr:nth-child(even){background-color: #f2f2f2;}
+    #customers tr:hover {background-color: #ddd;}
+    #customers th {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: center;
+        background-color: #1cc88a;
+        color: white;
+    }
+    #customers td {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+/*End n_board.php css*/
+/*start captcha.php css*/
+img.captcha-img {
+    width: 100%;
+    height: 3.2rem;
+    border-radius: 5px;
+}
+img.captcha-img1 {
+    width: 100%;
+    height: 56px;
+    border: 1px solid #c5bcbc;
+    border-radius: 4px;
+}
+@media screen and (max-width: 720px) {
+    img.captcha-img1{
+      width: 100%;
+    }
+  }
+/*End captcha.php css*/
+
+body, a, p,div, ul, li{
+    font-family: 'Raleway', sans-serif;
+}
+section{
+    padding: 70px 0px;
+}
+#header{
+    background: rgba(0,0,0,.49);
+    padding: 20px 0;
+}
+.php102-navbg {
+
+    height: 4rem;
+}
+.col-md-12.text-center.latest-job {
+    margin-top:60px;
+}
+@media only screen and (max-width: 768px) {
+    .col-md-12.text-center.latest-job{
+        margin-top: 10px;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .php102-navbg {height: 7rem;}
+    #heading{margin-top: 85px;}
+  }
+@media only screen and (max-width: 768px) {
+    .navbar-desktop{
+        display: none !important;
+    }
+  }
+@media only screen and (min-width: 768px) {
+    .navbar-mobile{
+        display: none !important;
+    }
+  }
+
+
+ul.navbar-nav.mr-auto {
+    margin-left: 1%;
+}
+.img-nam-practise {
+    width: auto;
+    height: 60px;
+}
+@media only screen and (max-width: 768px) {
+    .img-nam-practise{
+        width: 15rem;
+    }
+  }
+  .voice-oc-header{
+    padding: 5px 10px;
+    background: #2196F3;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 455px;
+    margin: auto;
+  }
+  @media only screen and (max-width: 768px) {
+    .voice-oc-header{
+        font-size: 20px;
+        width: 100%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container.voice-of-oc {
+        margin-top: 33px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .ocro-img {
+        width: 355px;
+        height: 400px;
+    }
+  }
+
+.nav-link{
+    font-size: 18px;
+}
+.nav {
+    display: block;
+}
+.navbar-dark .navbar-toggler {
+    color: rgb(38 88 146 / 92%);
+    border-color: rgb(33 83 124 / 91%);
+    width: 56px;
+}
+.nav li{
+    float: left;
+    padding: 0px 16px;
+    font-size: 20px;
+	text-transform: initial;
+    font-weight: 300;
+}
+.nav li a{
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 62px;
+}
+.nav li a:hover{
+    color: #00baff;
+}
+.php102nav li a{
+    text-transform: initial;
+}
+.dot{
+    right: 0px;
+}
+.dot li{
+    width: 20px !important;
+    height: 20px !important;
+    background-color: #00baff !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    opacity: 1 !important;
+}
+.dot li.active{
+    background-color: #ffffff !important;
+}
+.carousel-caption{
+    bottom: 38%;
+}
+.carousel-caption h5{
+    font-size: 72px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.carousel-caption h5 span.themecolor{
+    color:#00baff;
+}
+.carousel-caption p{
+    font-size: 30px;
+}
+.slide_button{
+    color: #ffffff;
+    background: #ff7200;
+    border: 1px solid #ff7200;
+    border-radius: 25px !important;
+    padding: 10px 35px;
+    margin-top: 25px;
+}
+
+.dropdown-toggle:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu {
+    margin-top: 11px;
+}
+.size-fixed {
+	height: 275px;
+	border-width:10px;
+    border-style:ridge;
+}
+
+.sizes-fixed {
+	height: 134px;
+	border-width:4px;
+    border-style:ridge;
+}
+
+.table-bordered {
+    border: 1px solid #000000;
+}
+
+#sampleTable{
+	font-family: bangla-font;
+	font-size: 18px;
+}
+
+.page-header-bangla {
+	font-family: bangla-font;
+}
+section{padding:20px 0;}
+
+/*start welcome.php css section*/
+
+@media only screen and (max-width: 768px) {
+    h2#wlHeading {
+        font-size: 20px;
+        text-align: right;
+        padding: 15px;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .welcome-profile-img {
+        position: absolute;
+    }
+  }
+
+	#wlHeading{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif, SolaimanLipi;
+	border-collapse: collapse;
+	width: 100%;
+
+	}
+
+	#bangla3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif, SolaimanLipi;
+	border-collapse: collapse;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+	}
+    @media only screen and (max-width: 768px) {
+        #bangla3  {
+            font-size: 22px;
+        }
+      }
+	#bangla {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif, SolaimanLipi;
+	font-size: 16px;
+	border-collapse: collapse;
+	width: 97%;
+    margin: auto;
+	}
+	#bangla2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif, SolaimanLipi;
+	font-size: 16px;
+	border-collapse: collapse;
+	width: 100%;
+    margin: auto;
+	}
+	#bangla1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif, SolaimanLipi;
+	font-size: 16px;
+	border-collapse: collapse;
+	width: 100%;
+	}
+
+	.wlSubmit {
+        width: 120px;
+        /* height: 52px; */
+        font-size: 20px !important;
+    }
+    @media only screen and (max-width: 768px) {
+        .wlSubmit{
+            margin-top: 18px;
+
+        }
+      }
+
+      .profile-img1{
+        border: 3px solid;
+        float: left;
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        margin-top: 0px;
+    }
+      .profile-img {
+        border: 3px solid #B2B8B7;
+        margin-top: 0px !important;
+        border-radius: 5px !important;
+         height: 100px;
+
+    }
+    @media only screen and (max-width: 768px) {
+        .profile-img{
+            width: 100px;
+            height: 120px;
+            margin-left: 15px;
+        }
+      }
+
+    #fileToUpload{
+        height: 44px;
+    }
+/*End welcome.php css section*/
+/*start jiggasha css section*/
+.jiggasha-rtl-header {
+    text-align: center;
+    /* margin-top: 5.5rem; */
+    /* padding: 5px 10px; */
+    background: #1c93bd;
+    color: #f0f419;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.transform_header:hover{
+    transform: translateY(10px);
+    transition: 0.7s;
+    box-shadow: 0 8px 18px 0 rgb(0,0,0,1);
+}
+.jiggasha-header1{
+font-size: 25px;
+}
+@media only screen and (max-width: 768px) {
+    .jiggasha-header1{
+        font-size: 20px;
+    }
+  }
+  .gen-inst-emp-header {
+    padding: 5px 10px;
+    background: #1c93bd;
+    color: #f0f419;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 15px;
+}
+@media only screen and (max-width: 768px) {
+    .gen-inst-emp-header{
+        font-size: 18px;
+        margin-top: 65px;
+    }
+    .tutorial_header{font-size: 18px; margin-top: 95px !important;}
+  }
+@media only screen and (max-width: 768px) {
+    .gen-inst-p{
+        font-size: 16px !important;
+    }
+  }
+  .login-panel.panel.panel-success {
+    margin-top: 25px;
+}
+.gen-inst-p{
+    color:black;
+    font-size: 18px;
+}
+/*End jiggasha css section*/
+/*start application.php css section*/
+.appl-img{
+    height:100px;
+    width:80px;
+    border:1px solid #B2B8B7;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .appl-img{
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    #resume1{
+        text-align: center;
+      }
+      #resume{
+        width: 56%;
+      }
+    }
+
+
+/*End application.php css section*/
+
+/*start hilights css section*/
+.highlights-header{
+    height: 40px;
+    display: inline-block;
+    background-color: #3390ff;
+    position: relative;
+
+}
+.scrol-text {
+    direction: left;
+    height: 40px;
+    font-size: 20px;
+    position: absolute;
+    padding: 7px;
+}
+
+/*End application.php css section*/
+/*End table css section*/
+.table-bordered th {
+
+    font-size: 24px;
+}
+.table-bordered td {
+
+    font-size: 20px;
+}
+
+/*End table css section*/
+.card.text-center.transform-img:hover {
+    box-shadow: 0 8px 18px 0 rgb(0,0,0,1);
+    transform: translateY(10px);
+    transition: 0.7s;
+    width: 362px;
+}
+.about_ro_header {
+    background-color: #b9c6d2;
+    opacity: 80%;
+    /* transform: translate(10px, 10px); */
+    box-shadow: 0 8px 18px 0 rgb(0,0,0,1);
+    padding: 40px;
+    border-radius: 10px;
+}
+.about_ro_header:hover{
+    transform: translateY(10px);
+    transition: 0.7s;
+}
+.about_header:hover{
+    transform: translateY(10px);
+    transition: 0.7s;
+    box-shadow: 0 8px 18px 0 rgb(0,0,0,1);
+}
+.about_header {
+    background: #e5e9ec;
+    color: #821bf3;
+    border-radius: 5px;
+    text-align: center;
+    width: 340px;
+    margin: auto;
+    font-weight: bold;
+    padding: 12px;
+}
+.tutorial_header {
+    background: #258bdb;
+    color: #ecf31b;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 18px 0 rgb(20 216 216);
+}
+.tutorial_video{
+    border-radius: 10px;
+    width:100%;
+    box-shadow: 0 8px 18px 0 rgb(20 216 216);
+}
+
+
+
+
